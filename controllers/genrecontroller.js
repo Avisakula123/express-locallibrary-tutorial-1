@@ -2,40 +2,40 @@ const Genre = require('../models/genre');
 
 // Display list of all Genre.
 exports.genre_list = function(req, res) {
-    res.send('NOT IMPLEMENTED: Genre list');
+    res.send('Rajashekar: Genre list');
 };
 
 // Display detail page for a specific Genre.
 exports.genre_detail = function(req, res) {
-    res.send('NOT IMPLEMENTED: Genre detail: ' + req.params.id);
+    res.send('Rajashekar: Genre detail: ' + req.params.id);
 };
 
 // Display Genre create form on GET.
 exports.genre_create_get = function(req, res) {
-    res.send('NOT IMPLEMENTED: Genre create GET');
+    res.send('Rajashekar: Genre create GET');
 };
 
 // Handle Genre create on POST.
 exports.genre_create_post = function(req, res) {
-    res.send('NOT IMPLEMENTED: Genre create POST');
+    res.send('Rajashekar: Genre create POST');
 };
 
 // Display Genre delete form on GET.
 exports.genre_delete_get = function(req, res) {
-    res.send('NOT IMPLEMENTED: Genre delete GET');
+    res.send('Rajashekar: Genre delete GET');
 };
 
 // Handle Genre delete on POST.
 exports.genre_delete_post = function(req, res) {
-    res.send('NOT IMPLEMENTED: Genre delete POST');
+    res.send('Rajashekar: Genre delete POST');
 };
 
 // Display Genre update form on GET.
 exports.genre_update_get = function(req, res) {
-    res.send('NOT IMPLEMENTED: Genre update GET');
+    res.send('Rajashekar: Genre update GET');
 };
 
 // Handle Genre update on POST.
 exports.genre_update_post = function(req, res) {
-    res.send('NOT IMPLEMENTED: Genre update POST');
+    res.send('Rajashekar: Genre update POST');
 };
