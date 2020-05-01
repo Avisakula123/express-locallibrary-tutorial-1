@@ -39,7 +39,6 @@ exports.author_delete_post = function(req, res) {
     res.send('NOT IMPLEMENTED: Author delete POST');
 };
 
-const Author = require('../models/author')
 const async = require('async')
 const Book = require('../models/book')
 var debug = require('debug')('author');
